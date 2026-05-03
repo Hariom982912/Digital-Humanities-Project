@@ -432,6 +432,9 @@ data = [
         "rationale": "Topographical variance is high due to river plain instability.",
         "snc": 30, "dsc": 90, "iso": 20
     }
+
+    for link in imgs:
+    components.html(f'<iframe src="{link}" width="870" height="370" frameborder="0" allowfullscreen></iframe>', height=380)
 ]
 
 df = pd.DataFrame(data)
